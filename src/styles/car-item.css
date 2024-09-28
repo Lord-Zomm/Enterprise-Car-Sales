@@ -4,7 +4,13 @@
   padding: 20px;
   border-radius: 8px;
   transition: box-shadow 0.3s ease;
+  height: 100%; /* Ensure all cards take up the full container height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures content is spaced evenly */
 }
+
+
 
 .car__item:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);

@@ -75,12 +75,16 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .filter-sections {
-    flex-direction: column;
-  }
 
-  .filter-group {
-    width: 100%;
-    margin-bottom: 20px;
+  .find-car-form {
+    padding: 20px; /* Increased padding for a larger form */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 12px; /* Rounded edges for the form */
+    transform: scale(1.2); /* Scale the entire form by 10% */
+    transform-origin: top; /* Adjust the origin for scaling */
+    margin-Bottom:-20px;
   }
 }

@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../../styles/about-section.css";
 import aboutImg from "../../assets/all-images/cars-img/lamborghini_2.png";
 
 const AboutSection = ({ aboutClass }) => {
   const greenStyle = { color: '#169658', fontSize: '20px' }; // Define the green color style
+
+  // State to track if the screen is mobile
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    // Function to handle window resizing
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    // Add event listener for window resizing
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener when the component is unmounted
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <section
@@ -29,25 +45,30 @@ const AboutSection = ({ aboutClass }) => {
               turnkey financing options for a seamless purchase experience.
               </p>
 
-              <div className="about__section-item d-flex align-items-center">
-                <p className="section__description d-flex align-items-center gap-2" style={greenStyle}>
-                  <i className="ri-checkbox-circle-line"></i> Enterprise Certified®
-                </p>
+              {/* Conditionally render this section only if not mobile */}
+              {!isMobile && (
+                <>
+                  <div className="about__section-item d-flex align-items-center">
+                    <p className="section__description d-flex align-items-center gap-2" style={greenStyle}>
+                      <i className="ri-checkbox-circle-line"></i> Enterprise Certified®
+                    </p>
 
-                <p className="section__description d-flex align-items-center gap-2" style={greenStyle}>
-                  <i className="ri-checkbox-circle-line" style={{marginLeft: '150px'}}></i> CARFAX® Report
-                </p>
-              </div>
+                    <p className="section__description d-flex align-items-center gap-2" style={greenStyle}>
+                      <i className="ri-checkbox-circle-line" style={{marginLeft: '150px'}}></i> CARFAX® Report
+                    </p>
+                  </div>
 
-              <div className="about__section-item d-flex align-items-center">
-                <p className="section__description d-flex align-items-center gap-2" style={greenStyle}>
-                  <i className="ri-checkbox-circle-line"></i> Powertrain Warranty
-                </p>
+                  <div className="about__section-item d-flex align-items-center">
+                    <p className="section__description d-flex align-items-center gap-2" style={greenStyle}>
+                      <i className="ri-checkbox-circle-line"></i> Powertrain Warranty
+                    </p>
 
-                <p className="section__description d-flex align-items-center gap-2" style={greenStyle}>
-                  <i className="ri-checkbox-circle-line" style={{marginLeft: '150px'}}></i> Roadside Assistance
-                </p>
-              </div>
+                    <p className="section__description d-flex align-items-center gap-2" style={greenStyle}>
+                      <i className="ri-checkbox-circle-line" style={{marginLeft: '150px'}}></i> Roadside Assistance
+                    </p>
+                  </div>
+                </>
+              )}
             </div>
           </Col>
 

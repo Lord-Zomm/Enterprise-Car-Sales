@@ -67,9 +67,8 @@ const BlogDetails = () => {
 
                 {/* =============== comment form ============ */}
                 <div className="leave__comment-form mt-5">
-                  <h4 style={greenStyle}>Leave a Comment</h4>
-                  <p className="section__description" style={greenStyle}>
-                    You must sign-in to make or comment a post
+                  <p className="section__description" style={{color: '#169658', marginTop:'30px'}}>
+                    You must sign-in to comment on a post
                   </p>
 
                   <Form>

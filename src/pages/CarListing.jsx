@@ -15,7 +15,7 @@ const CarListing = () => {
       <section>
         <Container>
           <Row>
-            <Col lg="12" md="12" sm="12" style={{ marginTop: '-60px' }}> {/* Adjust marginTop */}
+            <Col lg="10" md="10" sm="10" style={{ marginTop: '-60px', marginLeft: '120px', justifyContent: 'center', alignItems: 'center',  }}> {/* Adjust marginTop */}
               <FindCarForm /> {/* FindCarForm placed at the top */}
             </Col>
           </Row>

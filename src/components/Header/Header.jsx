@@ -51,7 +51,7 @@ const Header = () => {
   return (
     <header className="header">
       {/* ============ header top ============ */}
-      <div className="header__top" style={{ height: '24px', display: 'flex', alignItems: 'flex-start', justifyContent: 'flex-end', padding: '0 285px' }}>
+      <div className="header__top" style={{ height: '24px', display: 'flex', alignItems: 'flex-start', justifyContent: 'flex-end', padding: '0 100px' }}>
         <div style={{ color: 'white', fontSize: '0.8rem', display: 'flex', alignItems: 'center' }}>
           <i className="ri-earth-line" style={{ color: 'white', fontSize: '1rem' }}></i>
           <span style={{ marginLeft: '5px', color: 'white' }}>Enterprise Car Sales St. Louis</span>

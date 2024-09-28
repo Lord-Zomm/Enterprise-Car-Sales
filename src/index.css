@@ -1,0 +1,100 @@
+/* ======== google fonts ======== */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+/* ======= base style ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #169658;
+}
+
+/* ========= pre-define css ========= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #169658; /* Lighter Green */
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+h3,
+h4 {
+  font-size: 1.6rem;
+}
+
+h5,
+h6 {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+.section__title {
+  color: #169658; /* Lighter Green */
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.section__subtitle {
+  color: #15824e; /* Keeping this as is */
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.section__description {
+  color: #15824e; /* Darker Green */
+  font-size: 0.9rem;
+  line-height: 30px;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+.btn {
+  padding: 7px 15px;
+  background: #169658; /* Lighter Green */
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: #fff !important;
+  background: #15824e; /* Darker Green */
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 30px 0px;
+  }
+
+  .section__title {
+    font-size: 1.6rem;
+    color: #169658;
+  }
+
+  .section__subtitle {
+    font-size: 1.1rem;
+    color: #169658;
+  }
+}

@@ -1,0 +1,54 @@
+.financing__section {
+    padding: 40px 0;
+  }
+
+  .section__description {
+    text-align: center;
+    color: #15824e;
+    margin-top: -30px;
+    margin-bottom: 60px;
+    font-size: 1.5rem;
+  }
+
+  .financing__tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .financing__tile {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+  }
+
+  .financing__tile:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .financing__tile h5 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+
+  .financing__tile p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .tile__btn {
+    background-color: #169658;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+
+  .tile__btn:hover {
+    background-color: #137746;
+    border-color: #137746;
+  }

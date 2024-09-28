@@ -1,0 +1,110 @@
+.footer {
+  background: #169658; /* Lighter Green */
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.footer__logo i {
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer__logo span {
+  color: #fff;
+  font-weight: 500;
+}
+
+.footer__logo-content {
+  color: white;
+  margin-top: 15px;
+  line-height: 30px;
+}
+
+.quick__link {
+  border: none !important;
+  background: transparent !important;
+}
+
+.quick__link a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.quick__link a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.footer__link-title {
+  color: #fff;
+}
+
+.office__info {
+  color: white;
+  font-weight: 300;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border: 1px solid #7c8a972f;
+  border-radius: 50px;
+  background: #15824e; /* Keeping this as is */
+  color: white;
+}
+
+.newsletter input {
+  background: transparent;
+  color: #fff; /* White text color */
+  border: none;
+  outline: none;
+}
+
+.newsletter input::placeholder {
+  color: #fff; /* Placeholder text color */
+}
+
+.newsletter span i {
+  color: #fff; /* Icon color */
+}
+
+.section__description {
+  color: whitesmoke; /* Set "Subscribe our newsletter" text color to white */
+}
+
+.footer__bottom {
+  border-top: 1px solid #7c8a972f;
+}
+
+.footer__bottom p {
+  color: white; /* Copyright text color */
+}
+
+@media only screen and (max-width: 768px) {
+  .footer__logo-content {
+    font-size: 0.8rem;
+    color: white;
+  }
+
+  .quick__link,
+  .office__info {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    color: white;
+  }
+
+  .footer__link-title {
+    font-size: 1rem;
+    margin-top: 15px;
+    color: white;
+  }
+
+  .footer__bottom p {
+    font-size: 0.7rem;
+    color: white; /* Ensuring the copyright text is white */
+  }
+}

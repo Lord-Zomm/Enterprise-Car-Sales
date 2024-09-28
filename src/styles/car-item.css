@@ -1,0 +1,133 @@
+/* Container for car items */
+.car__item {
+  border: 1px solid #eaeaea;
+  padding: 20px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.car__item:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.car__img {
+  margin-bottom: 15px;
+}
+
+.car__img img {
+  border-radius: 8px;
+}
+
+/* Car name and price styling */
+.car__name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #169658;
+}
+
+.rent__price {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Car details section */
+.car__details {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.car__details p {
+  margin-bottom: 0.5rem;
+}
+
+.detail__label {
+  font-weight: 500;
+  color: #169658;
+}
+
+.mpg-link {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #169658;
+  cursor: pointer;
+}
+
+.mpg-link:hover {
+  text-decoration: underline;
+}
+
+/* Buttons styling */
+.car__item-btn {
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background: #169658;
+  padding: 8px 0;
+  text-align: center;
+  text-decoration: none;
+  color: #fff; /* Ensures the text is white initially */
+  font-weight: 500;
+  display: block;
+  width: 100%;
+}
+
+.car__item-btn a:hover {
+  color: #fff; /* Keeps the text white on hover */
+}
+
+
+.car__img img {
+  width: 100%; /* Ensure the image fills the container width */
+  max-width: 500px; /* Set a max width */
+  height: 200px; /* Set a fixed height */
+  object-fit: contain; /* Crop the image if necessary to fit the dimensions */
+  border-radius: 8px; /* Optional: Rounded corners */
+}
+
+
+.car__item-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+}
+
+.car__btn-details {
+  background: #15824e; /* Darker green for details button */
+}
+
+.car__btn-rent {
+  border-radius: 4px 0 0 4px;
+}
+
+.car__btn-details {
+  border-radius: 0 4px 4px 0;
+}
+
+/* Hover effect for buttons */
+.car__item-btn:hover {
+  background-color: #147a4a;
+}
+
+/* Responsive styling for small screens */
+@media only screen and (max-width: 768px) {
+  .car__name {
+    font-size: 1.2rem;
+  }
+
+  .rent__price {
+    font-size: 1.1rem;
+  }
+
+  .car__details p {
+    font-size: 0.8rem;
+  }
+
+  .car__item-btn {
+    font-size: 0.9rem;
+  }
+}

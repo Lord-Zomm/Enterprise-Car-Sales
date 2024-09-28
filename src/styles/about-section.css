@@ -1,0 +1,49 @@
+.about__section-item {
+  column-gap: 3rem;
+  color: #169658;
+}
+
+.about__section-item p i {
+  color: #169658;
+  font-size: 1.1rem;
+}
+
+/* about.css */
+.green-text {
+  color: #169658 !important; /* Use !important to ensure it overrides other styles */
+}
+
+
+@media only screen and (max-width: 992px) {
+  .about__section-content h2 {
+    font-size: 1.5rem;
+    color: #169658;
+  }
+  .about__section-item {
+    column-gap: 3rem;
+    color: #169658;
+  }
+  .about__section-item p {
+    font-size: 0.6rem;
+    margin-bottom: 0;
+    color: #169658;
+  }
+
+  .section__description i {
+    font-size: 0.8rem !important;
+    color: #169658;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about__img {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .about__section {
+    margin-top: 280px;
+    color: #169658;
+  }
+}

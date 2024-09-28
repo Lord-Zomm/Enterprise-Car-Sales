@@ -1,0 +1,69 @@
+.blog__item {
+  border: 1px solid rgba(124, 138, 151, 0.18); /* Keeping this color as is */
+}
+
+.blog__time {
+  border-top: 1px solid rgba(124, 138, 151, 0.18); /* Keeping this color as is */
+}
+
+.read__more {
+  color: #15824e; /* Keeping this color as is */
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.read__more:hover {
+  color: #15824e; /* Keeping this color as is */
+  font-weight: bold;
+}
+
+.blog__time span i {
+  color: #15824e; /* Keeping this color as is */
+}
+
+.blog__author {
+  color: #169658; /* Lighter Green */
+  font-weight: 600;
+}
+
+.blog__author i {
+  font-weight: 500;
+}
+
+.blog__title {
+  text-decoration: none;
+  color: #169658; /* Lighter Green */
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.blog__title:hover {
+  color: white; /* Keeping this color as is */
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog__time {
+    padding-top: 5px !important;
+  }
+
+  .blog__time span {
+    font-size: 0.7rem;
+  }
+
+  .blog__info p {
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .blog__title {
+    font-size: 1.1rem;
+  }
+
+  .read__more {
+    font-size: 0.7rem;
+  }
+}

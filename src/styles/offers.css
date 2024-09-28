@@ -1,0 +1,131 @@
+.offers__section {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    margin-top: -20px;
+  }
+
+/* Ensure all offer cards have the same size */
+.offer__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure content is spaced evenly */
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  height: 100%; /* Ensure full height of the container */
+  min-height: 300px; /* Set a minimum height for all cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.offer__box:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slight hover effect */
+}
+
+/* Icon styling */
+.icon__wrapper {
+  font-size: 3rem;
+  color: #169658;
+  margin-bottom: 10px;
+}
+
+/* Headings in the offer cards */
+.offer__box h4 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Paragraph text in the offer cards */
+.offer__box p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+  flex-grow: 1; /* Allow the text to take up any remaining space */
+}
+
+/* Ensure learn more link is at the bottom */
+.learn__link {
+  color: #169658;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.learn__link:hover {
+  text-decoration: underline;
+}
+
+
+  .section__title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .section__subtitle {
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .green-text {
+    color: #169658;
+    font-weight: bold;
+  }
+
+  .offer__img {
+    margin-bottom: 20px;
+  }
+
+  .offer__details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .offer__box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .offer__box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  .offer__icon {
+    font-size: 40px;
+    color: #169658;
+    margin-bottom: 10px;
+  }
+
+  .learn__link {
+    display: inline-block;
+    color: #169658;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .learn__link:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .offer__box {
+      margin: 10px auto;
+    }
+
+    .offer__img {
+      margin-bottom: 30px;
+    }
+  }

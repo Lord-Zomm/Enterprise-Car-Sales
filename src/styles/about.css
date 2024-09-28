@@ -1,0 +1,17 @@
+@media only screen and (max-width: 992px) {
+  .about__page-content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about__page-img {
+    display: none;
+  }
+
+  /* about.css */
+.green-text {
+  color: #169658 !important; /* Use !important to ensure it overrides other styles */
+}
+
+}

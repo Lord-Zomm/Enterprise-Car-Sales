@@ -1,0 +1,38 @@
+.locations__section {
+    padding: 40px 0;
+  }
+
+  .search__section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+
+  .input-group .input-group-text {
+    background-color: #fff;
+  }
+
+  .locations__list {
+    margin-top: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  .location__item {
+    padding-bottom: 10px;
+  }
+
+  .map__container {
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .map__container img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }

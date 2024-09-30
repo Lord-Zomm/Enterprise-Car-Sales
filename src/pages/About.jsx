@@ -9,11 +9,11 @@ import "../styles/about.css";
 
 const About = () => {
   // State to track if the screen is mobile
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1280);
 
   // Update the isMobile state on window resize
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth <= 1024);
+    const handleResize = () => setIsMobile(window.innerWidth <= 1280);
 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);

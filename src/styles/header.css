@@ -32,6 +32,14 @@
   background: #0b5e34;
 }
 
+.navigation__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap; /* Prevents wrapping */
+  width: 100%;
+}
+
 .navigation {
   display: flex; /* Display flex for normal desktop menu */
   align-items: center;
@@ -40,6 +48,7 @@
 .menu {
   display: flex;
   column-gap: 2.7rem; /* Keep the menu horizontal on desktop */
+  white-space: nowrap; /* Prevents wrapping of the links */
 }
 
 .nav__item {
@@ -83,8 +92,15 @@
   font-weight: bold;
 }
 
-/* ============ Mobile Styles (max-width: 1024px) ============ */
-@media only screen and (max-width: 1024px) {
+.phone-info {
+  display: flex;
+  align-items: center;
+  white-space: nowrap; /* Prevent wrapping of the phone number */
+  flex-shrink: 0; /* Prevent shrinking of the phone number */
+}
+
+/* ============ Mobile Styles (max-width: 1280px) ============ */
+@media only screen and (max-width: 1280px) {
   /* Hide the normal menu and search box on mobile */
   .navigation__wrapper,
   .nav__right {
@@ -108,6 +124,7 @@
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 50px;
+    overflow-y: auto; /* Enable vertical scrolling */
   }
 
   .navigation.menu__active {
@@ -149,18 +166,7 @@
   .phone-info {
     display: none;
   }
-}
 
-/* For larger screens, hide mobile menu */
-@media only screen and (min-width: 1024px) {
-  .mobile__menu,
-  .menu__close {
-    display: none; /* Hide hamburger and close button on desktop */
-  }
-}
-
-/* ============ Mobile Styles (max-width: 1024px) ============ */
-@media only screen and (max-width: 1024px) {
   /* Display search bar beside the hamburger menu on mobile */
   .mobile__search {
     display: flex;
@@ -178,3 +184,10 @@
   }
 }
 
+/* For larger screens, hide mobile menu */
+@media only screen and (min-width: 1280px) {
+  .mobile__menu,
+  .menu__close {
+    display: none; /* Hide hamburger and close button on desktop */
+  }
+}

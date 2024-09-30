@@ -120,7 +120,7 @@
     text-decoration: underline;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1280px) {
     .offer__box {
       margin: 10px auto;
     }

@@ -22,8 +22,8 @@ const quickLinks = [
     display: "Find a Location", // Updated label
   },
   {
-    path: "/about",
-    display: "About Us", // Updated label
+    path: "/blogs",
+    display: "Articles", // Updated label
   },
 ];
 

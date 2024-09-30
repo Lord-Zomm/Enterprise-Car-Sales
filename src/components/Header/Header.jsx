@@ -12,13 +12,12 @@ const navLinks = [
   { path: "/locations", display: "LOCATIONS" },
   { path: "/offers", display: "OFFERS" },
   { path: "/about", display: "ABOUT" },
-  { path: "/blogs", display: "ARTICLES" },
   { path: "/business", display: "FOR BUSINESS" },
 ];
 
 const Header = () => {
   const menuRef = useRef(null);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1280);
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -31,7 +30,7 @@ const Header = () => {
 
   // Update isMobile when the window resizes
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth <= 1024);
+    const handleResize = () => setIsMobile(window.innerWidth <= 1280);
     window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize);

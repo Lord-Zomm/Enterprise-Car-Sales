@@ -83,7 +83,7 @@
   color: white; /* Copyright text color */
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1280px) {
   .footer__logo-content {
     font-size: 0.8rem;
     color: white;

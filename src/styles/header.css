@@ -152,7 +152,7 @@
 }
 
 /* For larger screens, hide mobile menu */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1024px) {
   .mobile__menu,
   .menu__close {
     display: none; /* Hide hamburger and close button on desktop */

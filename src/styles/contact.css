@@ -14,7 +14,7 @@
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .contact__btn {
     margin-bottom: 40px;
     font-size: 0.8rem;

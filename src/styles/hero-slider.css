@@ -91,7 +91,7 @@
   margin-top: 120px; /* Adjust based on the space between form and car list */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .hero__form {
     bottom: -50px; /* Adjust for mobile devices */
     width: 90%;
@@ -118,7 +118,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .slider__item {
     height: 450px;
   }

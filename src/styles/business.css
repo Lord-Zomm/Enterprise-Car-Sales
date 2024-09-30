@@ -57,7 +57,7 @@
     color: #666;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .business-form {
       padding: 20px;
     }

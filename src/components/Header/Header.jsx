@@ -18,7 +18,7 @@ const navLinks = [
 
 const Header = () => {
   const menuRef = useRef(null);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -31,7 +31,7 @@ const Header = () => {
 
   // Update isMobile when the window resizes
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    const handleResize = () => setIsMobile(window.innerWidth <= 1024);
     window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize);

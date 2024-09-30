@@ -7,12 +7,12 @@ const AboutSection = ({ aboutClass }) => {
   const greenStyle = { color: '#169658', fontSize: '20px' }; // Define the green color style
 
   // State to track if the screen is mobile
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
 
   useEffect(() => {
     // Function to handle window resizing
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 1024);
     };
 
     // Add event listener for window resizing

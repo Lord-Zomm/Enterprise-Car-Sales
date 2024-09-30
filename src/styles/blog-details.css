@@ -44,7 +44,7 @@ blockquote {
   font-weight: 600;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .recent__post {
     margin-top: 30px;
   }

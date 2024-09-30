@@ -120,7 +120,7 @@
 }
 
 /* Responsive styling for small screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .car__name {
     font-size: 1.2rem;
   }

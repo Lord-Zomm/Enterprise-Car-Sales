@@ -83,8 +83,8 @@
   font-weight: bold;
 }
 
-/* ============ Mobile Styles (max-width: 768px) ============ */
-@media only screen and (max-width: 768px) {
+/* ============ Mobile Styles (max-width: 1024px) ============ */
+@media only screen and (max-width: 1024px) {
   /* Hide the normal menu and search box on mobile */
   .navigation__wrapper,
   .nav__right {
@@ -159,8 +159,8 @@
   }
 }
 
-/* ============ Mobile Styles (max-width: 768px) ============ */
-@media only screen and (max-width: 768px) {
+/* ============ Mobile Styles (max-width: 1024px) ============ */
+@media only screen and (max-width: 1024px) {
   /* Display search bar beside the hamburger menu on mobile */
   .mobile__search {
     display: flex;

@@ -83,7 +83,7 @@ section {
   background: #15824e; /* Darker Green */
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   section {
     padding: 30px 0px;
   }

@@ -99,7 +99,7 @@ const Trade = () => {
 
         <FormGroup check>
           <Label check>
-            <Input type="checkbox" /> Please email me about upcoming offers from Establishment.
+            <Input type="checkbox" /> Please email me about upcoming offers from Override.
           </Label>
         </FormGroup>
 
@@ -109,7 +109,7 @@ const Trade = () => {
       </Form>
 
       <p className="mt-4">
-        By providing my phone number and email address, I agree that Establishment Car Sales or its representatives may contact me by phone, email, or text (including via auto-dialer) to respond to my inquiry or regarding my interest in a vehicle purchase.
+        By providing my phone number and email address, I agree that Override Car Sales or its representatives may contact me by phone, email, or text (including via auto-dialer) to respond to my inquiry or regarding my interest in a vehicle purchase.
       </p>
 
       <p style={{ marginBottom: '30px' }}>

@@ -95,7 +95,7 @@ const Header = () => {
               <Col lg="3" md="4" sm="4" className="d-flex align-items-center justify-content-end phone-info">
                 <span style={{ color: 'white', fontSize: '1.5rem', padding: '0px 15px', display: 'flex', alignItems: 'flex-start' }}>
                   <i className="ri-earth-line" style={{ color: 'white', fontWeight: 'bold', fontSize: '2.0rem', marginTop: '2.5px', marginRight: '2px' }}></i>
-                  <span style={{ marginLeft: '5px', color: 'white', marginTop: '0px', fontSize: '2.2rem' }}>Boston, MA</span>
+                  <span style={{ marginLeft: '5px', color: 'white', marginTop: '0px', fontSize: '2.2rem' }}>St. Louis, MO</span>
                 </span>
               </Col>
             )}

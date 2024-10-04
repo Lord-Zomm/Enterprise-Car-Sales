@@ -65,9 +65,9 @@ const Footer = () => {
               </h1>
             </div>
             <p className="footer__logo-content" style={{ maxWidth: '350px', fontWeight: '10px', color: 'whitesmoke' }}>
-              Used vehicles were previously part of the Company's
+              Used vehicles were previously part of Override's
               rental fleet and/or an affiliated company’s lease fleet
-              or purchased by the Company from sources including auto
+              or purchased by Override from sources including auto
               auctions, customer trade-ins, or other sources, with a
               possible previous use including rental, lease, transportation
                network company, or other use.

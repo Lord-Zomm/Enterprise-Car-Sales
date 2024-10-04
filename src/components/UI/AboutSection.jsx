@@ -35,7 +35,7 @@ const AboutSection = ({ aboutClass }) => {
         <Row>
           <Col lg="6" md="6">
             <div className="about__section-content">
-              <h4 className="section__subtitle" style={greenStyle}>Why Buy A Car From Enterprise</h4>
+              <h4 className="section__subtitle" style={greenStyle}>Why Buy A Car From Establishment</h4>
               <h2 className="section__title" style={{color: '#169658', marginBottom: '50px', marginTop:'-20px'}}>Quality Selection. Transparent Process.</h2>
               <p className="section__description" style={greenStyle}>
               We put people first. You’ll be able to choose from thousands of cars,
@@ -50,7 +50,7 @@ const AboutSection = ({ aboutClass }) => {
                 <>
                   <div className="about__section-item d-flex align-items-center">
                     <p className="section__description d-flex align-items-center gap-2" style={greenStyle}>
-                      <i className="ri-checkbox-circle-line"></i> Enterprise Certified®
+                      <i className="ri-checkbox-circle-line"></i> Establishment Certified®
                     </p>
 
                     <p className="section__description d-flex align-items-center gap-2" style={greenStyle}>

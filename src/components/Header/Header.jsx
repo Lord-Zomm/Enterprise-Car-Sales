@@ -60,8 +60,8 @@ const Header = () => {
       {/* ============ header top ============ */}
       <div className="header__top" style={{ height: '24px', display: 'flex', alignItems: 'flex-start', justifyContent: 'flex-end', padding: '0 100px' }}>
         <div style={{ color: 'white', fontSize: '0.8rem', display: 'flex', alignItems: 'center' }}>
-          <i className="ri-earth-line" style={{ color: 'white', fontSize: '1rem' }}></i>
-          <span style={{ marginLeft: '5px', color: 'white' }}>Enterprise Car Sales St. Louis</span>
+          {/*<i className="ri-earth-line" style={{ color: 'white', fontSize: '1rem' }}></i>
+          <span style={{ marginLeft: '5px', color: 'white' }}>Car Sales St. Louis</span>*/}
         </div>
       </div>
 
@@ -73,7 +73,7 @@ const Header = () => {
               <div className="logo">
                 <h1 style={{ color: 'white', fontSize: '2rem', marginTop: '8px'}}>
                   <Link to="/home" className="d-flex align-items-center gap-2" style={{ color: 'white', whiteSpace: 'nowrap' }}>
-                    <img src={enterpriseLogo} alt="Enterprise Logo" style={{ width: '200px', height: 'auto'}} />
+                    <i class="ri-car-line" style={{ color: 'white', whiteSpace: 'nowrap', fontSize: '2.2rem'}}></i>
                     <span
                       style={{
                         fontSize: '2.2rem',
@@ -94,8 +94,8 @@ const Header = () => {
             {!isMobile && (
               <Col lg="3" md="4" sm="4" className="d-flex align-items-center justify-content-end phone-info">
                 <span style={{ color: 'white', fontSize: '1.5rem', padding: '0px 15px', display: 'flex', alignItems: 'flex-start' }}>
-                  <i className="ri-phone-fill" style={{ color: 'white', fontWeight: 'bold', fontSize: '2.0rem', marginTop: '2.5px', marginRight: '2px' }}></i>
-                  <span style={{ marginLeft: '5px', color: 'white', marginTop: '0px', fontSize: '2.2rem' }}>888-227-7253</span>
+                  <i className="ri-earth-line" style={{ color: 'white', fontWeight: 'bold', fontSize: '2.0rem', marginTop: '2.5px', marginRight: '2px' }}></i>
+                  <span style={{ marginLeft: '5px', color: 'white', marginTop: '0px', fontSize: '2.2rem' }}>Boston, MA</span>
                 </span>
               </Col>
             )}

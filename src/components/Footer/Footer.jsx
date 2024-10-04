@@ -59,15 +59,15 @@ const Footer = () => {
             <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <img src={enterpriseLogo} alt="Enterprise Logo" style={{ width: '150px', height: 'auto'}} /> {/* Image for logo */}
+                  <i class="ri-car-line" style={{ color: 'white', whiteSpace: 'nowrap', fontSize: '2.2rem'}}></i>
                   <span style={{ fontSize: '1.5rem', marginLeft: '30px', transform: 'scaleX(1.5)', fontWeight: 'bold' }}>Car Sales</span> {/* Increase fontSize here */}
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content" style={{ maxWidth: '350px', fontWeight: '10px', color: 'whitesmoke' }}>
-              Used vehicles were previously part of the Enterprise
+              Used vehicles were previously part of the Company's
               rental fleet and/or an affiliated company’s lease fleet
-              or purchased by Enterprise from sources including auto
+              or purchased by the Company from sources including auto
               auctions, customer trade-ins, or other sources, with a
               possible previous use including rental, lease, transportation
                network company, or other use.
@@ -96,7 +96,7 @@ const Footer = () => {
               <p className="office__info">Truck Rental</p>
               <p className="office__info">Exotic Car Rental</p>
               <p className="office__info">CarShare</p>
-              <p className="office__info">Commute with Enterprise</p>
+              <p className="office__info">Commute</p>
             </div>
           </Col>
 
@@ -118,7 +118,7 @@ const Footer = () => {
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4" style={{fontSize:'16px', marginTop:'10px'}}>
-                <i class="ri-copyright-line"></i>Copyright {year}, Enterprise Holdings, Inc. All rights reserved.
+                <i class="ri-copyright-line"></i>This site is for demo purposes only.
               </p>
             </div>
           </Col>

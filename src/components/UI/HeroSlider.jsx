@@ -23,7 +23,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h1 className="text-light mb-3" style={{ fontWeight: 'bold' }}>Buy. Sell. Trade.</h1>
-            <h1 className="text-light mb-4">Enterprise makes it easy.®</h1>
+            <h1 className="text-light mb-4">We make it easy.®</h1>
 
             <button className="btn reserve__btn custom-button-margin">
               <Link to="/cars">Shop Vehicles</Link>
@@ -36,7 +36,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h1 className="text-light mb-3" style={{ fontWeight: 'bold' }}>Buy. Sell. Trade.</h1>
-            <h1 className="text-light mb-4">Enterprise makes it easy.®</h1>
+            <h1 className="text-light mb-4">We make it easy.®</h1>
 
             <button className="btn reserve__btn custom-button-margin">
               <Link to="/cars">Shop Vehicles</Link>
@@ -49,7 +49,7 @@ const HeroSlider = () => {
         <Container>
           <div className="slider__content ">
             <h1 className="text-light mb-3" style={{ fontWeight: 'bold' }}>Buy. Sell. Trade.</h1>
-            <h1 className="text-light mb-4">Enterprise makes it easy.®</h1>
+            <h1 className="text-light mb-4">We make it easy.®</h1>
 
             <button className="btn reserve__btn custom-button-margin">
               <Link to="/cars">Shop Vehicles</Link>

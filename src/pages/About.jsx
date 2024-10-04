@@ -56,7 +56,7 @@ const About = () => {
                     fontSize: '20px',
                   }}
                 >
-                  At Enterprise Car Sales, we offer a seamless car buying experience that begins from home. Shop our online inventory, estimate trade-in values, schedule test drives, and apply for financing with ease. With transparent pricing, the price you see is the price you pay—no hidden fees. Every vehicle undergoes rigorous inspections by ASE-certified technicians and includes a 12-month/12,000-mile powertrain warranty and a free CARFAX® Vehicle History Report™. Enjoy 12 months of roadside assistance and peace of mind with our seven-day or 1,000-mile buyback guarantee. With a 4.7/5 customer satisfaction rating, we’re committed to putting you first.
+                  At Establishment Car Sales, we offer a seamless car buying experience that begins from home. Shop our online inventory, estimate trade-in values, schedule test drives, and apply for financing with ease. With transparent pricing, the price you see is the price you pay—no hidden fees. Every vehicle undergoes rigorous inspections by ASE-certified technicians and includes a 12-month/12,000-mile powertrain warranty and a free CARFAX® Vehicle History Report™. Enjoy 12 months of roadside assistance and peace of mind with our seven-day or 1,000-mile buyback guarantee. With a 4.7/5 customer satisfaction rating, we’re committed to putting you first.
                 </p>
 
                 <p

@@ -11,35 +11,35 @@ const Locations = () => {
 
   const locations = [
     {
-      name: "Enterprise Car Sales St. Charles",
+      name: "Establishment Car Sales St. Charles",
       address: "3717 Veterans Memorial Pkwy, Saint Charles, MO 63303",
       phone: "636-203-7066",
       financingLink: "#",
       detailsLink: "#",
     },
     {
-      name: "Enterprise Car Sales West County",
+      name: "Establishment Car Sales West County",
       address: "13750 Manchester Rd, Manchester, MO 63011",
       phone: "314-376-3972",
       financingLink: "#",
       detailsLink: "#",
     },
     {
-      name: "Enterprise Car Sales Hazelwood",
+      name: "Establishment Car Sales Hazelwood",
       address: "623 Dunn Rd, Hazelwood, MO 63042",
       phone: "314-203-3278",
       financingLink: "#",
       detailsLink: "#",
     },
     {
-      name: "Enterprise Car Sales Clayton",
+      name: "Establishment Car Sales Clayton",
       address: "8844 Ladue Rd, Clayton, MO 63124",
       phone: "314-376-3272",
       financingLink: "#",
       detailsLink: "#",
     },
     {
-      name: "Enterprise Car Sales S. Lindbergh",
+      name: "Establishment Car Sales S. Lindbergh",
       address: "5181 S Lindbergh Blvd, St. Louis, MO 63123",
       phone: "314-269-8087",
       financingLink: "#",

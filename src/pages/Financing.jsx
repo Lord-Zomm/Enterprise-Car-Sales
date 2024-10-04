@@ -11,7 +11,7 @@ const Financing = () => {
       <section className="financing__section">
         <Container>
           <p className="section__description">
-            At Enterprise Car Sales, we make buying and financing a car easy. Visit one of our dealerships, and we’ll walk you through the financing process. Or if you prefer, browse this section for tips.
+            At Establishment Car Sales, we make buying and financing a car easy. Visit one of our dealerships, and we’ll walk you through the financing process. Or if you prefer, browse this section for tips.
           </p>
           <Row className="financing__tiles">
             <Col lg="4" md="6" sm="12">
@@ -41,7 +41,7 @@ const Financing = () => {
             <Col lg="4" md="6" sm="12">
               <div className="financing__tile">
                 <h5>First-Time Car Buyer</h5>
-                <p>Enterprise makes it easy to buy your first car, even with less-than-perfect credit.</p>
+                <p>We make it easy to buy your first car, even with less-than-perfect credit.</p>
                 <Button color="success" className="tile__btn">Learn How</Button>
               </div>
             </Col>
